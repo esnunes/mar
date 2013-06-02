@@ -1,0 +1,39 @@
+{
+  "name": "mar",
+  "description": "Message & Reply - RPC library",
+  "version": "0.0.1",
+  "author": {
+    "name": "Eduardo Nunes",
+    "email": "esnunes@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Eduardo Nunes",
+      "email": "esnunes@gmail.com"
+    }
+  ],
+  "dependencies": {
+  },
+  "keywords": [
+    "mar",
+    "message",
+    "rpc",
+    "reply",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/esnunes/mar.git"
+  },
+  "main": "index",
+  "engines": {
+    "node": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/esnunes/mar/raw/master/LICENSE"
+    }
+  ],
+  "readmeFilename": "README.md"
+}
