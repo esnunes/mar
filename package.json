@@ -1,7 +1,7 @@
 {
   "name": "mar",
   "description": "MAR - Message & Reply, is a RPC library based on message exchange.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "Eduardo Nunes",
     "email": "esnunes@gmail.com"
