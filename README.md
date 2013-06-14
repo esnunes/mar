@@ -38,13 +38,13 @@ var Server = require('mar').Server;
 
 var s = new Server(8081);
 s.on('ping', function(msg) {
-    console.log('ping sent at [%s]', new Date(msg.data));
-    if (msg.reply) msg.reply(null, new Date().getTime());
+  console.log('ping sent at [%s]', new Date(msg.data));
+  if (msg.reply) msg.reply(null, new Date().getTime());
 });
 
 s.on('mar.auth', function(msg) {
-    if (msg.data != 'foobar') msg.reply('auth denied');
-    msg.reply(null, 'auth granted');
+  if (msg.data != 'foobar') msg.reply('auth denied');
+  msg.reply(null, 'auth granted');
 });
 ```
 
@@ -77,7 +77,7 @@ The source is available for download from
 [GitHub](http://github.com/esnunes/mar).
 Alternatively, you can install using Node Package Manager (npm):
 
-    npm install mar
+  npm install mar
 
 ## Future - TODO
 
