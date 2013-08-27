@@ -43,7 +43,7 @@ s.on('ping', function(msg) {
 });
 
 s.on('mar.auth', function(msg) {
-  if (msg.data != 'foobar') msg.reply('auth denied');
+  if (msg.data != 'foobar') return msg.reply('auth denied');
   msg.reply(null, 'auth granted');
 });
 ```
